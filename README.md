@@ -18,9 +18,16 @@ Generic description of project
 - Feature 1
 - Feature 2
 
+## Future plans
+- Future plan 1
+- Future plan 2
+
 ## Dependencies
 - `example-dependency-1`
 - `example-dependency-2`
+
+## Usage
+Usage instructions
 
 <br />
 
@@ -47,6 +54,7 @@ git clone https://github.com/mekb-turtle/readme-template.git
 cd readme-template
 git checkout "$(git describe --tags --abbrev=0)" # checkout to latest tag, omit for latest commit
 meson setup build
+meson test -C build
 meson install -C build
 ```
 
